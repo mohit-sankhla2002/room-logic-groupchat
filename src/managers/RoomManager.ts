@@ -32,6 +32,8 @@ class RoomManager {
             type: "DESTROY", 
             payload: "This room is going down, join another one"
         });
+
+        this.rooms.delete(id);
     }
 }
 
